@@ -1,0 +1,243 @@
+@import 'variables';
+.text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 10%;
+}
+h1{
+    padding-top: 5%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 6.4rem;
+    line-height: 7.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 10%;
+}
+
+h3{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+h4{
+    margin: 10% 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2D3033;
+}
+h5{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6C7279;
+}
+.h5_2{
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.h5_3{
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+
+.h5_4{
+    color: #FFFFFF;
+    padding-bottom: 20%;
+ }
+
+.name{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2D3033;
+}
+.job_title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FF4343;
+}
+.card_text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #6C7279;
+}
+.carousel_text{
+    font-family: 'Cardo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    max-width: 47rem;
+}
+.carousel_text2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    max-width: 47rem;
+    width: 100%;
+    margin-top: 3%;
+}
+.footer span{
+    color: #FFFFFF;
+}
+.footer .text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #808080;
+    padding-bottom: 0;
+    padding-top: 3%;
+}
+@media (max-width: 992px){
+    h1{
+        font-size: 4.8rem;
+    }
+    .text{
+        font-size: 1.8rem;
+    }
+    h4{
+        font-size: 1.8rem;
+    }
+    h5{
+        font-size: 1.4rem;
+    }
+    .name{
+        font-size: 1.8rem;
+    }
+    .job_title{
+        font-size: 1.4rem;
+    }
+    .card_text{
+        font-size: 1.4rem;
+    }
+    .carousel_text{
+        font-size: 2.4rem;
+        max-width: 33rem;
+    }
+    .carousel_text2{
+        font-size: 1.2rem;
+        max-width: 33rem;
+    }
+    h3{
+        font-size: 2.4rem;
+    }
+    .h5_2{
+        font-size: 1.4rem;
+    }
+    .footer .text{
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 568px){
+    h1{
+        font-size: 3.4rem;
+    }
+    .text{
+        font-size: 1.4rem;
+    }
+    h4{
+        font-size: 1.8rem;
+    }
+    h5{
+        font-size: 1.4rem;
+    }
+    .name{
+        font-size: 1.8rem;
+    }
+    .job_title{
+        font-size: 1.4rem;
+    }
+    .card_text{
+        font-size: 1.4rem;
+    }
+    .carousel_text{
+        font-size: 2.4rem;
+        max-width: 25rem;
+    }
+    .carousel_text2{
+        font-size: 1.2rem;
+        max-width: 25rem;
+    }
+    h3{
+        font-size: 2.4rem;
+    }
+    .h5_2{
+        font-size: 1.4rem;
+    }
+    .footer .text{
+        font-size: 1.4rem;
+    }
+    .h5_4{
+        padding-bottom: 0;
+    }
+    .h5_3{
+        padding-top: 10%;
+    }
+}

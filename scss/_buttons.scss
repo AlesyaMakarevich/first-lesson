@@ -1,0 +1,110 @@
+@import 'variables';
+.button{
+    width: 100%;
+    max-width: 37rem;
+    height: 100%;
+    max-height: 7.8rem;
+    border: 0;
+    background-color: #FF4343;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: .5s;
+
+    &:hover{
+        background-color: $secondary-dark;
+    }
+    &:active{
+        box-shadow: 4px 4px 30px $secondary;
+    }
+}
+.b1{
+    height: 7.8rem;
+}
+.round_btn{
+    padding-top: 1rem;
+    width: .3rem;
+    height: .3rem;
+    border-radius: 50%;
+    border: 1px solid $carousel;
+    &:active{
+        background-color: $carousel;
+    }
+}
+.carousel-indicators .active{
+    background-color: $carousel;
+}
+.ind{
+    top: 105%;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 45%;
+    margin-right: 45%;
+    z-index: 1;
+}
+.menu-btn {
+    display: none;
+      width: 35px;
+      height: 35px;
+      position: relative;
+      background-color: transparent;
+      z-index:2;
+      overflow: hidden;
+    border: 0;
+  
+  & span {
+      width: 30px;
+      height: 3px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      transition: all 0.5s;
+  }
+  & span:nth-of-type(2) {
+      top: calc(50% - 7px);
+  }
+  & span:nth-of-type(3) {
+      top: calc(50% + 7px);
+    height: 3.5px;
+  }
+  &:focus span{
+    transform: rotate(45deg) translatex(-50%);
+    margin-top: 9px;
+  }
+  &:focus span:nth-of-type(2) {
+      opacity: 0;
+  }
+  &:focus span:nth-of-type(3) {
+    transform: rotate(-45deg) translateX(-50%);
+    margin-top: -20px;
+  }
+  &:focus + .nav-bar{
+    top: 7.5rem;
+  }
+}
+@media(max-width: 992px){
+    .button{
+        max-width: 31.3rem;
+        max-height: 8rem;
+    }
+}
+@media (max-width: 768px){
+    .menu-btn{
+        display: flex;
+        align-self: center;
+      }
+}
+@media (max-width: 568px) {
+    .ind{
+        margin: 0 20%;
+    }
+}
